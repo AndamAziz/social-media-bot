@@ -173,12 +173,31 @@ async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("📊 No stats!")
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_name = update.message.from_user.first_name
     await update.message.reply_text(
-        f"👋 *Welcome!*\n\n*🎬 ALL IN ONE BIG BOSS BOT*\n━━━━━━━━━━━━━━━\n\n"
-        f"📱 *9+ Platforms:*\n📸 Instagram | 📘 Facebook\n🎵 TikTok | 🐦 Twitter/X\n"
-        f"👻 Snapchat | 📺 YouTube\n🤖 Reddit | 📌 Pinterest | 💼 LinkedIn\n\n"
-        f"⚡ *Features:*\n✨ Fast downloads\n📹 High quality\n🎵 Auto MP3\n🚀 No login\n\n"
-        f"📝 Just send a link!\n\n👨‍💻 *Dev:* @AndamAziz",
+        f"👋 *سڵاو {user_name}!*\n"
+        f"بەخێربێیت بۆ\n\n"
+        f"🎬 *ALL IN ONE BIG BOSS BOT* 🎬\n"
+        f"━━━━━━━━━━━━━━━━━━━━\n\n"
+        f"*📱 پشتگیری بۆ 9+ پلاتفۆرم:*\n\n"
+        f"📸 Instagram  │  📘 Facebook\n"
+        f"🎵 TikTok  │  🐦 Twitter/X\n"
+        f"👻 Snapchat  │  📺 YouTube\n"
+        f"🤖 Reddit  │  📌 Pinterest\n"
+        f"💼 LinkedIn\n\n"
+        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"*⚡ تایبەتمەندییەکان:*\n\n"
+        f"✨ داونلۆدی خێرا و بێ سنوور\n"
+        f"📹 ڤیدیۆ بە کوالیتی بەرز\n"
+        f"🎵 گۆڕین بۆ MP3 ئۆتۆماتیکی\n"
+        f"🚀 بێ پێویستی بە لۆگین\n\n"
+        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"*📝 چۆنیەتی بەکارهێنان:*\n\n"
+        f"تەنها لینکی میدیا بنێرە!\n\n"
+        f"*بۆ یارمەتی:* /help\n\n"
+        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"👨‍💻 *Developer:* @AndamAziz\n"
+        f"💫 *Made with ❤️ for you!*",
         parse_mode='Markdown'
     )
 
