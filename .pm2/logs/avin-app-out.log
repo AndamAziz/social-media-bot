@@ -14616,3 +14616,12 @@
 
   ➜  Local:   http://localhost:8080/
   ➜  Network: http://77.68.125.218:8080/
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite
+
+
+  VITE v5.4.19  ready in 460 ms
+
+  ➜  Local:   http://localhost:8080/
+  ➜  Network: http://77.68.125.218:8080/
