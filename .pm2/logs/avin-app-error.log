@@ -1,0 +1,653 @@
+The request url "/proc/self/environ" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+1:37:47 AM [vite] Pre-transform error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+1:37:49 AM [vite] Internal server error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/src/App.tsx:9:23
+  27 |  import StudentView from "./pages/StudentView";
+  28 |  import StudentProgress from "./pages/StudentProgress";
+  29 |  import AdminLogin from "./pages/AdminLogin";
+     |                          ^
+  30 |  import AdminResetPassword from "./pages/AdminResetPassword";
+  31 |  import NotFound from "./pages/NotFound";
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+1:37:52 AM [vite] Internal server error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/src/App.tsx:9:23
+  27 |  import StudentView from "./pages/StudentView";
+  28 |  import StudentProgress from "./pages/StudentProgress";
+  29 |  import AdminLogin from "./pages/AdminLogin";
+     |                          ^
+  30 |  import AdminResetPassword from "./pages/AdminResetPassword";
+  31 |  import NotFound from "./pages/NotFound";
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+1:37:53 AM [vite] Internal server error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/src/App.tsx:9:23
+  27 |  import StudentView from "./pages/StudentView";
+  28 |  import StudentProgress from "./pages/StudentProgress";
+  29 |  import AdminLogin from "./pages/AdminLogin";
+     |                          ^
+  30 |  import AdminResetPassword from "./pages/AdminResetPassword";
+  31 |  import NotFound from "./pages/NotFound";
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+1:37:54 AM [vite] Internal server error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/src/App.tsx:9:23
+  27 |  import StudentView from "./pages/StudentView";
+  28 |  import StudentProgress from "./pages/StudentProgress";
+  29 |  import AdminLogin from "./pages/AdminLogin";
+     |                          ^
+  30 |  import AdminResetPassword from "./pages/AdminResetPassword";
+  31 |  import NotFound from "./pages/NotFound";
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+1:37:55 AM [vite] Internal server error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/src/App.tsx:9:23
+  27 |  import StudentView from "./pages/StudentView";
+  28 |  import StudentProgress from "./pages/StudentProgress";
+  29 |  import AdminLogin from "./pages/AdminLogin";
+     |                          ^
+  30 |  import AdminResetPassword from "./pages/AdminResetPassword";
+  31 |  import NotFound from "./pages/NotFound";
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+1:39:22 AM [vite] Internal server error: Failed to resolve import "./pages/AdminLogin" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/src/App.tsx:9:23
+  27 |  import StudentView from "./pages/StudentView";
+  28 |  import StudentProgress from "./pages/StudentProgress";
+  29 |  import AdminLogin from "./pages/AdminLogin";
+     |                          ^
+  30 |  import AdminResetPassword from "./pages/AdminResetPassword";
+  31 |  import NotFound from "./pages/NotFound";
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at async file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Files in the public directory are served at the root path.
+Instead of /public/.env, use /.env.
+Files in the public directory are served at the root path.
+Instead of /public/.env.save, use /.env.save.
+Files in the public directory are served at the root path.
+Instead of /public/.env.old, use /.env.old.
+Files in the public directory are served at the root path.
+Instead of /public/.env.bak, use /.env.bak.
+Files in the public directory are served at the root path.
+Instead of /public/phpinfo.php, use /phpinfo.php.
+Files in the public directory are served at the root path.
+Instead of /public/info.php, use /info.php.
+Files in the public directory are served at the root path.
+Instead of /public/phpinfo.php.save, use /phpinfo.php.save.
+Files in the public directory are served at the root path.
+Instead of /public/info.php.save, use /info.php.save.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+1:39:17 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/index
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:40 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/60/398ba8dc43ca3a6abed05ce175de0e28a8814e
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:41 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/17/717091398910d0e3df00605cb65f7261ce7374
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:41 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/08/6e13c56efa952053ef66fb9e883201ebe59c8e
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:41 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/3f/2a438414b8794af96155bd87a36b18a902f948
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:41 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/12/f807caf79f858bb3de0f97748e0cb030ba6342
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:41 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/50/04aa6c7181b4534cf7424fabe1bb9fbc858628
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:39:41 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/84/94227dd182b59fd96396d45368163df4efe007
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+11:46:18 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/index
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Files in the public directory are served at the root path.
+Instead of /public/wsr2.php, use /wsr2.php.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+6:51:50 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/index
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+Files in the public directory are served at the root path.
+Instead of /public/wsr2.php, use /wsr2.php.
+9:42:48 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/index
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+9:42:58 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/index
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Files in the public directory are served at the root path.
+Instead of /public/.git/config, use /.git/config.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Files in the public directory are served at the root path.
+Instead of /public/assets/js/intlTelutils.js, use /assets/js/intlTelutils.js.
+Files in the public directory are served at the root path.
+Instead of /public/home/js/func.js, use /home/js/func.js.
+Files in the public directory are served at the root path.
+Instead of /public/message/findByType, use /message/findByType.
+Files in the public directory are served at the root path.
+Instead of /public/static/js/main.js, use /static/js/main.js.
+Files in the public directory are served at the root path.
+Instead of /public/js/json/code_BF_ix.json, use /js/json/code_BF_ix.json.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+1:15:49 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/index
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/19/4bdbce46764ca5edf68a87856eb7cea4a9beda
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/12/f807caf79f858bb3de0f97748e0cb030ba6342
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/84/94227dd182b59fd96396d45368163df4efe007
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/80/0570b635807b3b7ecdc2338047b2854e4c010f
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/a0/8bc0f2c94f59260d9b34aa99f8a3a18f813a5f
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/2c/eebaa3baaabd1eda89b3b596ffd920fcf96ddc
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/08/6e13c56efa952053ef66fb9e883201ebe59c8e
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/17/717091398910d0e3df00605cb65f7261ce7374
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/3f/2a438414b8794af96155bd87a36b18a902f948
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/72/4084d3fe28cfa3ef4794f8ba5dd061796d6135
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/60/398ba8dc43ca3a6abed05ce175de0e28a8814e
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+1:15:58 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /root/kurdish-quiz-hub/.git/objects/50/04aa6c7181b4534cf7424fabe1bb9fbc858628
+      at TransformPluginContext._formatError (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at TransformPluginContext.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64243:14)
+      at async PluginContainer.transform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///root/kurdish-quiz-hub/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+Files in the public directory are served at the root path.
+Instead of /public/.git/config, use /.git/config.
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/root/kurdish-quiz-hub/.env" is outside of Vite serving allow list.
+
+- /root/kurdish-quiz-hub
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
