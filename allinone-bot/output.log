@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/allinone-bot/instagram_bot.py", line 12, in <module>
+    from config import TELEGRAM_TOKEN, SOCIAL_API_KEY, SOCIAL_API_HOST
+ModuleNotFoundError: No module named 'config'
