@@ -115,9 +115,37 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not (is_instagram or is_facebook or is_tiktok or is_twitter or is_snapchat or is_youtube or is_reddit or is_pinterest or is_linkedin):
         return
     
-    platforms = {'instagram': '📸', 'facebook': '📘', 'tiktok': '🎵', 'twitter': '🐦', 'snapchat': '👻', 'youtube': '📺', 'reddit': '🤖', 'pinterest': '📌', 'linkedin': '💼'}
-    platform = next((p for p, _ in platforms.items() if locals()[f'is_{p}']), 'other')
-    emoji = platforms.get(platform, '🌐')
+    # دیاریکردنی پلاتفۆرم
+    if is_instagram:
+        platform = 'instagram'
+        emoji = '📸'
+    elif is_facebook:
+        platform = 'facebook'
+        emoji = '📘'
+    elif is_tiktok:
+        platform = 'tiktok'
+        emoji = '🎵'
+    elif is_twitter:
+        platform = 'twitter'
+        emoji = '🐦'
+    elif is_snapchat:
+        platform = 'snapchat'
+        emoji = '👻'
+    elif is_youtube:
+        platform = 'youtube'
+        emoji = '📺'
+    elif is_reddit:
+        platform = 'reddit'
+        emoji = '🤖'
+    elif is_pinterest:
+        platform = 'pinterest'
+        emoji = '📌'
+    elif is_linkedin:
+        platform = 'linkedin'
+        emoji = '💼'
+    else:
+        platform = 'other'
+        emoji = '🌐'
     
     user = update.message.from_user
     user_id = user.id
