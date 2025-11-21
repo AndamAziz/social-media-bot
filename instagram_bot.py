@@ -32,8 +32,8 @@ def save_stats(platform, success=True):
             stats = {
                 'total': 0, 'instagram': 0, 'facebook': 0, 'tiktok': 0,
                 'twitter': 0, 'snapchat': 0, 'youtube': 0, 'reddit': 0,
-                'pinterest': 0, 'linkedin': 0, 'success': 0, 'failed': 0,
-                'started': datetime.now().isoformat()
+                'pinterest': 0, 'linkedin': 0, 'instagram_profile': 0,
+                'success': 0, 'failed': 0, 'started': datetime.now().isoformat()
             }
         
         stats['total'] = stats.get('total', 0) + 1
@@ -99,8 +99,70 @@ class SocialDownloader:
 
 social_downloader = SocialDownloader()
 
+async def download_profile_picture(update: Update, text: str):
+    """داگرتنی وێنەی پرۆفایل لە Instagram"""
+    try:
+        username = text.strip().lstrip('@')
+        if 'instagram.com/' in username:
+            parts = username.split('instagram.com/')[-1].strip('/').split('/')
+            username = parts[0].split('?')[0]
+        
+        status = await update.message.reply_text(f"📸 بەدەستهێنانی پرۆفایلی @{username}...")
+        
+        # Instagram API
+        profile_url = f"https://www.instagram.com/api/v1/users/web_profile_info/?username={username}"
+        headers = {
+            'User-Agent': 'Instagram 76.0.0.15.395 Android',
+            'X-IG-App-ID': '936619743392459'
+        }
+        
+        response = requests.get(profile_url, headers=headers, timeout=10)
+        
+        if response.status_code == 200:
+            data = response.json()
+            user_data = data['data']['user']
+            profile_pic = user_data['profile_pic_url_hd']
+            full_name = user_data.get('full_name', username)
+            followers = user_data['edge_followed_by']['count']
+            following = user_data['edge_follow']['count']
+            posts = user_data['edge_owner_to_timeline_media']['count']
+            
+            await update.message.reply_photo(
+                profile_pic,
+                caption=f"📸 *Profile Picture*\n\n"
+                        f"👤 @{username}\n"
+                        f"✨ {full_name}\n"
+                        f"👥 {followers:,} Followers\n"
+                        f"➕ {following:,} Following\n"
+                        f"📝 {posts:,} Posts",
+                parse_mode='Markdown'
+            )
+            await status.delete()
+            save_stats('instagram_profile', success=True)
+        else:
+            await status.edit_text(f"❌ نەتوانرا پرۆفایلی @{username} بدۆزرێتەوە")
+            save_stats('instagram_profile', success=False)
+            
+    except Exception as e:
+        logger.error(f"Profile error: {e}")
+        try:
+            await status.edit_text("❌ هەڵەیەک ڕوویدا لە بەدەستهێنانی پرۆفایل")
+        except:
+            pass
+        save_stats('instagram_profile', success=False)
+
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
+    
+    # چەککردنی ئەگەر username ـە بۆ profile picture
+    if text.startswith('@') and len(text.split()) == 1:
+        await download_profile_picture(update, text)
+        return
+    
+    # چەککردنی ئەگەر Instagram profile link ـە
+    if 'instagram.com/' in text and '/p/' not in text and '/reel/' not in text and '/tv/' not in text:
+        await download_profile_picture(update, text)
+        return
     
     is_instagram = 'instagram.com' in text
     is_facebook = 'facebook.com' in text or 'fb.watch' in text or 'fb.com' in text
@@ -115,7 +177,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not (is_instagram or is_facebook or is_tiktok or is_twitter or is_snapchat or is_youtube or is_reddit or is_pinterest or is_linkedin):
         return
     
-    # دیاریکردنی پلاتفۆرم
     if is_instagram:
         platform = 'instagram'
         emoji = '📸'
@@ -195,7 +256,17 @@ async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         with open('bot_stats.json', 'r') as f:
             stats = json.load(f)
         
-        message = f"📊 *Stats*\n\n🔢 Total: *{stats.get('total', 0)}*\n📸 Instagram: *{stats.get('instagram', 0)}*\n📘 Facebook: *{stats.get('facebook', 0)}*\n🎵 TikTok: *{stats.get('tiktok', 0)}*\n\n✅ Success: *{stats.get('success', 0)}*\n❌ Failed: *{stats.get('failed', 0)}*"
+        message = (
+            f"📊 *ئاماری بۆت*\n\n"
+            f"🔢 کۆی گشتی: *{stats.get('total', 0)}*\n\n"
+            f"📸 Instagram: *{stats.get('instagram', 0)}*\n"
+            f"👤 Profile: *{stats.get('instagram_profile', 0)}*\n"
+            f"📘 Facebook: *{stats.get('facebook', 0)}*\n"
+            f"🎵 TikTok: *{stats.get('tiktok', 0)}*\n"
+            f"🐦 Twitter: *{stats.get('twitter', 0)}*\n\n"
+            f"✅ Success: *{stats.get('success', 0)}*\n"
+            f"❌ Failed: *{stats.get('failed', 0)}*"
+        )
         await update.message.reply_text(message, parse_mode='Markdown')
     except:
         await update.message.reply_text("📊 No stats!")
@@ -215,13 +286,15 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"💼 LinkedIn\n\n"
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"*⚡ تایبەتمەندییەکان:*\n\n"
-        f"✨ داونلۆدی خێرا و بێ سنوور\n"
+        f"✨ داونلۆدی خێرا\n"
         f"📹 ڤیدیۆ بە کوالیتی بەرز\n"
-        f"🎵 گۆڕین بۆ MP3 ئۆتۆماتیکی\n"
+        f"🎵 گۆڕین بۆ MP3\n"
+        f"📸 داگرتنی Profile Picture\n"
         f"🚀 بێ پێویستی بە لۆگین\n\n"
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"*📝 چۆنیەتی بەکارهێنان:*\n\n"
-        f"تەنها لینکی میدیا بنێرە!\n\n"
+        f"• لینکی میدیا بنێرە\n"
+        f"• یان @username بنێرە بۆ Profile\n\n"
         f"*بۆ یارمەتی:* /help\n\n"
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"👨‍💻 *Developer:* @AndamAziz\n"
@@ -231,8 +304,11 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "*📖 HELP*\n━━━━━━━━━━\n\n*How to use:*\n1️⃣ Copy link\n2️⃣ Send to bot\n3️⃣ Get video & MP3!\n\n"
-        "*Platforms:*\nInstagram | Facebook | TikTok\nTwitter | YouTube | Snapchat\nReddit | Pinterest | LinkedIn\n\n"
+        "*📖 HELP*\n━━━━━━━━━━\n\n"
+        "*🌐 Video Download:*\nSend any video link from:\n"
+        "📸 Instagram | 📘 Facebook\n🎵 TikTok | 🐦 Twitter\n\n"
+        "*👤 Profile Picture:*\nSend:\n@username\nor\ninstagram.com/username\n\n"
+        "*Commands:*\n/start - Start\n/help - Help\n/stats - Stats (Admin)\n\n"
         "👨‍💻 @AndamAziz",
         parse_mode='Markdown'
     )
